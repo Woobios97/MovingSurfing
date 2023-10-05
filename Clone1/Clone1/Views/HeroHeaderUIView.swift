@@ -72,9 +72,7 @@ class HeroHeaderUIView: UIView {
         NSLayoutConstraint.activate(playButtonConstraints)
         NSLayoutConstraint.activate(downloadConstraints)
     }
-    
-    
-    
+
     override func layoutSubviews() {
         super.layoutSubviews()
         heroImageView.frame = bounds
