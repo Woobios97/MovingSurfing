@@ -48,7 +48,6 @@ class UpcomingViewController: UIViewController {
             }
         }
     }
-    
 }
 
 extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
