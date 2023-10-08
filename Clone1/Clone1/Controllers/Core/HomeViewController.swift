@@ -55,8 +55,6 @@ class HomeViewController: UIViewController {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
     }
-
-
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {

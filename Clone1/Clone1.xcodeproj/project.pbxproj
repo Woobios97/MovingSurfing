@@ -12,6 +12,7 @@
 		A5499E862ACFC46300E45077 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A5499E852ACFC46300E45077 /* SDWebImageMapKit */; };
 		A5499E882AD0743800E45077 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E872AD0743800E45077 /* TitleTableViewCell.swift */; };
 		A5499E8A2AD0763C00E45077 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E892AD0763C00E45077 /* TitleViewModel.swift */; };
+		A5499E8C2AD138F800E45077 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */; };
 		A5DF484F2ACD290200CD3AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */; };
 		A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */; };
 		A5DF48532ACD290200CD3AE1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48522ACD290200CD3AE1 /* MainTabBarViewController.swift */; };
@@ -32,6 +33,7 @@
 		A5499E802ACFC39500E45077 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		A5499E872AD0743800E45077 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		A5499E892AD0763C00E45077 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleViewModel.swift; path = Clone1/Views/TitleViewModel.swift; sourceTree = SOURCE_ROOT; };
+		A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		A5DF484B2ACD290200CD3AE1 /* Clone1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5499E8D2AD1392500E45077 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5DF48632ACD2A9000CD3AE1 /* HomeViewController.swift */,
+				A5DF48652ACD2AB200CD3AE1 /* UpcomingViewController.swift */,
+				A5DF48672ACD2AD100CD3AE1 /* SearchViewController.swift */,
+				A5DF48692ACD2AEE00CD3AE1 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5499E8E2AD1393600E45077 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		A5DF48422ACD290200CD3AE1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +122,8 @@
 		A5DF48622ACD2A7A00CD3AE1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A5DF48632ACD2A9000CD3AE1 /* HomeViewController.swift */,
-				A5DF48652ACD2AB200CD3AE1 /* UpcomingViewController.swift */,
-				A5DF48672ACD2AD100CD3AE1 /* SearchViewController.swift */,
-				A5DF48692ACD2AEE00CD3AE1 /* DownloadsViewController.swift */,
+				A5499E8E2AD1393600E45077 /* General */,
+				A5499E8D2AD1392500E45077 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +262,7 @@
 				A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */,
 				A5DF48662ACD2AB200CD3AE1 /* UpcomingViewController.swift in Sources */,
 				A5DF48642ACD2A9000CD3AE1 /* HomeViewController.swift in Sources */,
+				A5499E8C2AD138F800E45077 /* SearchResultViewController.swift in Sources */,
 				A5499E8A2AD0763C00E45077 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
