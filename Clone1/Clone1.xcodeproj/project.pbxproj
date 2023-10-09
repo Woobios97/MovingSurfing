@@ -14,6 +14,8 @@
 		A5499E8A2AD0763C00E45077 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E892AD0763C00E45077 /* TitleViewModel.swift */; };
 		A5499E8C2AD138F800E45077 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */; };
 		A5499E902AD26B5500E45077 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E8F2AD26B5500E45077 /* YoutubeSearchResponse.swift */; };
+		A5499E922AD2BAF900E45077 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E912AD2BAF900E45077 /* TitlePreviewViewController.swift */; };
+		A5499E942AD2BD1200E45077 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E932AD2BD1200E45077 /* TitlePreviewViewModel.swift */; };
 		A5DF484F2ACD290200CD3AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */; };
 		A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */; };
 		A5DF48532ACD290200CD3AE1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48522ACD290200CD3AE1 /* MainTabBarViewController.swift */; };
@@ -36,6 +38,8 @@
 		A5499E892AD0763C00E45077 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleViewModel.swift; path = Clone1/Views/TitleViewModel.swift; sourceTree = SOURCE_ROOT; };
 		A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		A5499E8F2AD26B5500E45077 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YoutubeSearchResponse.swift; path = Clone1/Controllers/YoutubeSearchResponse.swift; sourceTree = SOURCE_ROOT; };
+		A5499E912AD2BAF900E45077 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		A5499E932AD2BD1200E45077 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitlePreviewViewModel.swift; path = Clone1/Controllers/General/TitlePreviewViewModel.swift; sourceTree = SOURCE_ROOT; };
 		A5DF484B2ACD290200CD3AE1 /* Clone1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A5499E8B2AD138F800E45077 /* SearchResultViewController.swift */,
+				A5499E912AD2BAF900E45077 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A5499E892AD0763C00E45077 /* TitleViewModel.swift */,
+				A5499E932AD2BD1200E45077 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				A5DF48792ACF2E5500CD3AE1 /* Extensions.swift in Sources */,
 				A5DF484F2ACD290200CD3AE1 /* AppDelegate.swift in Sources */,
 				A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */,
+				A5499E942AD2BD1200E45077 /* TitlePreviewViewModel.swift in Sources */,
 				A5DF48662ACD2AB200CD3AE1 /* UpcomingViewController.swift in Sources */,
+				A5499E922AD2BAF900E45077 /* TitlePreviewViewController.swift in Sources */,
 				A5DF48642ACD2A9000CD3AE1 /* HomeViewController.swift in Sources */,
 				A5499E8C2AD138F800E45077 /* SearchResultViewController.swift in Sources */,
 				A5499E8A2AD0763C00E45077 /* TitleViewModel.swift in Sources */,
