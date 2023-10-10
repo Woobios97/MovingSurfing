@@ -16,6 +16,8 @@
 		A5499E902AD26B5500E45077 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E8F2AD26B5500E45077 /* YoutubeSearchResponse.swift */; };
 		A5499E922AD2BAF900E45077 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E912AD2BAF900E45077 /* TitlePreviewViewController.swift */; };
 		A5499E942AD2BD1200E45077 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499E932AD2BD1200E45077 /* TitlePreviewViewModel.swift */; };
+		A5499EBA2AD426DB00E45077 /* Clone1Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5499EB82AD426DB00E45077 /* Clone1Model.xcdatamodeld */; };
+		A5499EBC2AD42DF900E45077 /* DataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5499EBB2AD42DF900E45077 /* DataPersistanceManager.swift */; };
 		A5DF484F2ACD290200CD3AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */; };
 		A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */; };
 		A5DF48532ACD290200CD3AE1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF48522ACD290200CD3AE1 /* MainTabBarViewController.swift */; };
@@ -40,6 +42,8 @@
 		A5499E8F2AD26B5500E45077 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YoutubeSearchResponse.swift; path = Clone1/Controllers/YoutubeSearchResponse.swift; sourceTree = SOURCE_ROOT; };
 		A5499E912AD2BAF900E45077 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		A5499E932AD2BD1200E45077 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitlePreviewViewModel.swift; path = Clone1/Controllers/General/TitlePreviewViewModel.swift; sourceTree = SOURCE_ROOT; };
+		A5499EB92AD426DB00E45077 /* Clone1Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clone1Model.xcdatamodel; sourceTree = "<group>"; };
+		A5499EBB2AD42DF900E45077 /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataPersistanceManager.swift; path = Clone1/DataPersistanceManager.swift; sourceTree = SOURCE_ROOT; };
 		A5DF484B2ACD290200CD3AE1 /* Clone1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 		A5499E8D2AD1392500E45077 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A5DF48522ACD290200CD3AE1 /* MainTabBarViewController.swift */,
 				A5DF48632ACD2A9000CD3AE1 /* HomeViewController.swift */,
 				A5DF48652ACD2AB200CD3AE1 /* UpcomingViewController.swift */,
 				A5DF48672ACD2AD100CD3AE1 /* SearchViewController.swift */,
@@ -116,12 +121,10 @@
 				A5DF486B2ACD3D0700CD3AE1 /* Views */,
 				A5DF486C2ACD3D0C00CD3AE1 /* ViewModels */,
 				A5DF48622ACD2A7A00CD3AE1 /* Controllers */,
-				A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */,
-				A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */,
-				A5DF48522ACD290200CD3AE1 /* MainTabBarViewController.swift */,
 				A5DF48572ACD290300CD3AE1 /* Assets.xcassets */,
 				A5DF48592ACD290300CD3AE1 /* LaunchScreen.storyboard */,
 				A5DF485C2ACD290300CD3AE1 /* Info.plist */,
+				A5499EB82AD426DB00E45077 /* Clone1Model.xcdatamodeld */,
 			);
 			path = Clone1;
 			sourceTree = "<group>";
@@ -168,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				A5DF48782ACF2E5500CD3AE1 /* Extensions.swift */,
+				A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */,
+				A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DF48742ACE899900CD3AE1 /* APICaller.swift */,
+				A5499EBB2AD42DF900E45077 /* DataPersistanceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -269,9 +275,11 @@
 				A5DF486A2ACD2AEE00CD3AE1 /* DownloadsViewController.swift in Sources */,
 				A5DF48792ACF2E5500CD3AE1 /* Extensions.swift in Sources */,
 				A5DF484F2ACD290200CD3AE1 /* AppDelegate.swift in Sources */,
+				A5499EBC2AD42DF900E45077 /* DataPersistanceManager.swift in Sources */,
 				A5DF48512ACD290200CD3AE1 /* SceneDelegate.swift in Sources */,
 				A5499E942AD2BD1200E45077 /* TitlePreviewViewModel.swift in Sources */,
 				A5DF48662ACD2AB200CD3AE1 /* UpcomingViewController.swift in Sources */,
+				A5499EBA2AD426DB00E45077 /* Clone1Model.xcdatamodeld in Sources */,
 				A5499E922AD2BAF900E45077 /* TitlePreviewViewController.swift in Sources */,
 				A5DF48642ACD2A9000CD3AE1 /* HomeViewController.swift in Sources */,
 				A5499E8C2AD138F800E45077 /* SearchResultViewController.swift in Sources */,
@@ -512,6 +520,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A5499EB82AD426DB00E45077 /* Clone1Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5499EB92AD426DB00E45077 /* Clone1Model.xcdatamodel */,
+			);
+			currentVersion = A5499EB92AD426DB00E45077 /* Clone1Model.xcdatamodel */;
+			path = Clone1Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A5DF48432ACD290200CD3AE1 /* Project object */;
 }
