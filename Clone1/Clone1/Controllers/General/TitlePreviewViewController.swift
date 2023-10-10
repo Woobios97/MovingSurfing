@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 class TitlePreviewViewController: UIViewController {
-    
+        
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
