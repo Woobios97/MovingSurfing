@@ -30,7 +30,6 @@ class CollectionViewTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.backgroundColor = .systemPink
         contentView.addSubview(collectionview)
         
         collectionview.delegate = self
@@ -110,7 +109,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
         let config = UIContextMenuConfiguration(
             identifier: nil,
             previewProvider: nil) { [weak self] _ in
-                let downloadAction = UIAction(title: "Download", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) { _ in
+                let downloadAction = UIAction(title: "다운받기", subtitle: nil, image: UIImage(systemName: "arrow.down.to.line.square"), identifier: nil, discoverabilityTitle: nil, state: .off) { _ in
                     self?.downloadTitleAt(indexPath: indexPath)
                 }
                 return UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [downloadAction])
