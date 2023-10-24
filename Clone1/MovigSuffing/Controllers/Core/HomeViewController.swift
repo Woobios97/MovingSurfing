@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
     private var randomTrendingMovie: Title?
     private var headerView: HeroHeaderUIView?
     
-    let sectionTitles: [String] = ["Trending Moives", "Trending Tv", "Popular",  "Upcoming Movies", "Top rated"]
+    let sectionTitles: [String] = ["인기 영화", "인기 TV시리즈", "급상승",  "개봉예정 영화", "우리에게 사랑받은 영화"]
     
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
@@ -58,8 +58,8 @@ class HomeViewController: UIViewController {
     }
     
     private func configNavbar() {
-        var image = UIImage(named: "netflixLogo")?.resized(to: CGSize(width: 30, height: 30))
-        image = image?.withRenderingMode(.alwaysOriginal)
+        var image = UIImage(systemName: "movieclapper")?.resized(to: CGSize(width: 30, height: 30))
+        image = image?.withTintColor(.white, renderingMode: .alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
         
         navigationItem.rightBarButtonItems = [
@@ -156,6 +156,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         header.textLabel?.frame = CGRect(x: header.bounds.origin.x + 20, y: header.bounds.origin.y, width: 100, height: header.bounds.height)
         header.textLabel?.textColor = .white
         header.textLabel?.text = header.textLabel?.text?.capitalizzeFirstLetter()
+        //header.textLabel?.font = UIFont(name: "BMDOHYEON_otf", size: 18)
     }
     
     // 헤더(제목) 갯수 지정
