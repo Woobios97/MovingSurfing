@@ -28,9 +28,11 @@
 Foldering 🗄️
 -------------
 ```bash
-─── MovingSuffing │ │ ├── Managers
+─── MovingSuffing
+│ │ ├── Managers
 │ │ │ ├── APICaller
-│ │ │ ├── DataPersistanceManager │ │ ├── Resources
+│ │ │ ├── DataPersistanceManager
+│ │ ├── Resources
 │ │ │ ├── Fonts
 │ │ │ │ │ ├── 야놀자 야체 Bold.ttf
 │ │ │ │ │ ├── BMDOHYEON_otf.otf
