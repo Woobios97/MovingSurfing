@@ -19,15 +19,15 @@
 
 ### Search 🔎
 
-![3.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/11ef1361-8336-4aed-8f9f-4f211736e2d8/3.gif)
+![2](https://github.com/Woobios97/MovingSurfing/assets/138302237/1eca171c-4aa4-4ebb-8e0b-76e523f7552b)
 
 ### Upcoming**🎬**
 
-![2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/061e8cf3-1fbd-43c6-9390-384f4db6034a/2.gif)
+![3](https://github.com/Woobios97/MovingSurfing/assets/138302237/5a260301-ab9a-480d-9f73-2d74fe043f2d)
 
 ### Downloads 📥
 
-![4.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/3e145250-9a1c-4a7a-a310-abee8068abb5/4.gif)
+![4](https://github.com/Woobios97/MovingSurfing/assets/138302237/7468223d-5f7e-43be-9f3b-9a247940db33)
 
 Foldering 🗄️
 -------------
@@ -148,11 +148,11 @@ Foldering 🗄️
             -   다행히도, 이와 같은 요구사항의 UI 레퍼런스들은 많이 있었고, 이 코드들을 참고하여 UI를 구축하였다. 또한 `**UITableView**`의 각 `**style**`에 따른 테이블뷰를 구현해보면서 나만의 테이블뷰UI 데이터가 내적으로 쌓였다. 가령 `**style: .plain**`이라면 섹션 간의 명확한 구분이 없어, 메일앱이나 메시지앱에서 적합하고 **`style: .grouped`** 는 각 섹션을 명확하게 구분하여, 설정화면이나 정보섹션에 어울리며, **`style: .insetGrouped`** 는 섹션들이 화면 가장자리에서 약간 떨어져 보이며, 카드 또는 패널처럼 보이게 되어 카드 UI 혹은 그룹화된 데이터를 보여줄 때 적합하다.
     -   홈뷰에서의 네비게이션바가 계속 보임
 
-        ![navigationBar transform 처리 X](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/74a6594f-4399-4348-8be2-75eb2d9f415c/1.gif)
+        ![navigationBar transform 처리 X]![5](https://github.com/Woobios97/MovingSurfing/assets/138302237/25f7302c-0d06-467a-8857-0b462241911c)
 
         navigationBar transform 처리 X
 
-        ![navigationBar transform 처리 O](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/1f1b82a1-25c5-431f-ab7c-e677c3b6fda8/2.gif)
+        ![navigationBar transform 처리 O]![6](https://github.com/Woobios97/MovingSurfing/assets/138302237/8d4c39a2-40fb-4d16-8414-c6ac8342e379)
 
         navigationBar transform 처리 O
 
