@@ -148,14 +148,9 @@ Foldering 🗄️
             -   다행히도, 이와 같은 요구사항의 UI 레퍼런스들은 많이 있었고, 이 코드들을 참고하여 UI를 구축하였다. 또한 `**UITableView**`의 각 `**style**`에 따른 테이블뷰를 구현해보면서 나만의 테이블뷰UI 데이터가 내적으로 쌓였다. 가령 `**style: .plain**`이라면 섹션 간의 명확한 구분이 없어, 메일앱이나 메시지앱에서 적합하고 **`style: .grouped`** 는 각 섹션을 명확하게 구분하여, 설정화면이나 정보섹션에 어울리며, **`style: .insetGrouped`** 는 섹션들이 화면 가장자리에서 약간 떨어져 보이며, 카드 또는 패널처럼 보이게 되어 카드 UI 혹은 그룹화된 데이터를 보여줄 때 적합하다.
     -   홈뷰에서의 네비게이션바가 계속 보임
 
-        ![navigationBar transform 처리 X]![5](https://github.com/Woobios97/MovingSurfing/assets/138302237/25f7302c-0d06-467a-8857-0b462241911c)
+        ![5](https://github.com/Woobios97/MovingSurfing/assets/138302237/25f7302c-0d06-467a-8857-0b462241911c) | ![6](https://github.com/Woobios97/MovingSurfing/assets/138302237/8d4c39a2-40fb-4d16-8414-c6ac8342e379)
 
-        navigationBar transform 처리 X
-
-        ![navigationBar transform 처리 O]![6](https://github.com/Woobios97/MovingSurfing/assets/138302237/8d4c39a2-40fb-4d16-8414-c6ac8342e379)
-
-        navigationBar transform 처리 O
-
+        
         -   고민/ 문제
             -   사용자가 MovingSurfing을 사용했을 때 홈뷰에서의 경험을 보았을 때, 홈뷰에서는 영화에 대한 정보가 많이 보여야 된다고 생각했다. 네비게이션바를 안보이는 것이 사용자 경험 측면(UX)에서 여러가지 이점이 있다고 생각했다.
                 1.  **더 많은 콘텐츠 공간**
