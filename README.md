@@ -22,58 +22,32 @@
 
 Foldering 🗄️
 -------------
-
 ```bash
 ─── MovingSuffing │ │ ├── Managers
-
 │ │ │ ├── APICaller
-
 │ │ │ ├── DataPersistanceManager │ │ ├── Resources
-
 │ │ │ ├── Fonts
-
 │ │ │ │ │ ├── 야놀자 야체 Bold.ttf
-
 │ │ │ │ │ ├── BMDOHYEON_otf.otf
-
 │ │ │ ├── Extensions
-
 │ │ │ ├── Appdelegate
-
 │ │ │ ├── SceneDelegate
-
 │ │ ├── Models
-
 │ │ │ ├──YoutubeSearchResponse
-
 │ │ │ ├──Title
-
 │ │ ├── ViewModels
-
 │ │ │ ├──TitlePreviewViewModel
-
 │ │ │ ├──TitleViewModel
-
 │ │ ├── Controllers
-
 │ │ │ ├── General
-
 │ │ │ │ │ ├── SearchResultViewController
-
 │ │ │ │ │ ├── TitlePreviewViewController
-
 │ │ │ ├── Core
-
 │ │ │ │ │ ├── MainTabBarViewController
-
 │ │ │ │ │ ├── HomeViewController
-
 │ │ │ │ │ ├── UpcomingViewController
-
 │ │ │ │ │ ├── SearchViewController
-
 │ │ │ │ │ ├── DownloadsViewController
-
 └────── MovingSuffing
 ``` 
 
