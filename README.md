@@ -17,7 +17,7 @@
 ---|:---:|---:
 `static` | 유형(기준) 없음 / 배치 불가능 | `static`
 
-### Home **🏠** | ### Search 🔎
+### Home **🏠** | Search 🔎
 ---|:---:|
 ![1](https://github.com/Woobios97/MovingSurfing/assets/138302237/d3c9122d-8d14-45a5-97e1-ba25e140c012) | ![2](https://github.com/Woobios97/MovingSurfing/assets/138302237/1eca171c-4aa4-4ebb-8e0b-76e523f7552b)
 
