@@ -2,7 +2,7 @@
 
 
 
-![Group 15.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/003c3f41-9d1d-421b-a395-395040135070/Group_15.png)
+<img width="900" alt="0" src="https://github.com/Woobios97/MovingSurfing/assets/138302237/d7418c06-f6a1-4599-a3a1-ae21d6ee6a8a">
 
 
 
