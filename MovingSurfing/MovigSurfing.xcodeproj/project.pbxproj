@@ -119,12 +119,11 @@
 		A5DF484D2ACD290200CD3AE1 /* MovigSuffing */ = {
 			isa = PBXGroup;
 			children = (
-				A5E9344A2AE6E43D00DAF87C /* Fonts */,
 				A5DF486F2ACD3D3D00CD3AE1 /* Managers */,
 				A5DF486E2ACD3D3300CD3AE1 /* Resources */,
 				A5DF486D2ACD3D1300CD3AE1 /* Models */,
-				A5DF486B2ACD3D0700CD3AE1 /* Views */,
 				A5DF486C2ACD3D0C00CD3AE1 /* ViewModels */,
+				A5DF486B2ACD3D0700CD3AE1 /* Views */,
 				A5DF48622ACD2A7A00CD3AE1 /* Controllers */,
 				A5DF48572ACD290300CD3AE1 /* Assets.xcassets */,
 				A5A6EB3D2AE76D610036F228 /* Info.plist */,
@@ -175,6 +174,7 @@
 		A5DF486E2ACD3D3300CD3AE1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5E9344A2AE6E43D00DAF87C /* Fonts */,
 				A5E934532AE76C9300DAF87C /* Extensions.swift */,
 				A5DF484E2ACD290200CD3AE1 /* AppDelegate.swift */,
 				A5DF48502ACD290200CD3AE1 /* SceneDelegate.swift */,

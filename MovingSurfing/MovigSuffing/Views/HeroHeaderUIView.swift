@@ -1,6 +1,6 @@
 //
 //  HeroHeaderUIView.swift
-//  Clone1
+//  MovingSuffing
 //
 //  Created by 김우섭 on 10/5/23.
 //
@@ -33,7 +33,6 @@ class HeroHeaderUIView: UIView {
        let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "heroImage")
         return imageView
     }()
 

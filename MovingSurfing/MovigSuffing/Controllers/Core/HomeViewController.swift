@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  Clone1
+//  MovingSuffing
 //
 //  Created by 김우섭 on 10/4/23.
 //
@@ -156,7 +156,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         header.textLabel?.frame = CGRect(x: header.bounds.origin.x + 20, y: header.bounds.origin.y, width: 100, height: header.bounds.height)
         header.textLabel?.textColor = .white
         header.textLabel?.text = header.textLabel?.text?.capitalizzeFirstLetter()
-        //header.textLabel?.font = UIFont(name: "BMDOHYEON_otf", size: 18)
     }
     
     // 헤더(제목) 갯수 지정

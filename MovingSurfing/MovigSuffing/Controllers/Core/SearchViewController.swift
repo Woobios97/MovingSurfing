@@ -1,6 +1,6 @@
 //
 //  SearchViewController.swift
-//  Clone1
+//  MovingSuffing
 //
 //  Created by 김우섭 on 10/4/23.
 //
@@ -131,7 +131,6 @@ extension SearchViewController: UISearchResultsUpdating, SearchResultViewControl
     }
     
     func searchResultViewControllerDidTapItem(_ viewModel: TitlePreviewViewModel) {
-        
         DispatchQueue.main.async { [weak self] in
             let vc = TitlePreviewViewController()
             vc.configure(with: viewModel)

@@ -1,6 +1,6 @@
 //
 //  SearchResultViewController.swift
-//  Clone1
+//  MovingSuffing
 //
 //  Created by 김우섭 on 10/7/23.
 //
