@@ -15,7 +15,7 @@
 
 ### Home **🏠**
 
-![1.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/9a419170-6834-4eb9-bb53-c405bd4086ee/4953ab1f-cec1-4270-ad81-12e374af737b/1.gif)
+![1](https://github.com/Woobios97/MovingSurfing/assets/138302237/d3c9122d-8d14-45a5-97e1-ba25e140c012)
 
 ### Search 🔎
 
