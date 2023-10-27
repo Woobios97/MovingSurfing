@@ -15,13 +15,13 @@
 
 우리들은 🚶 언제나 바쁘게 살아갑니다. 그 바쁜 시간 속에 잠깐의 여유를 위해 영화 🎥 를 보 고싶지만, 어떤 영화를 볼 지 매번 망설이다가 결국 잠깐의 여유는 바람💨처럼 사라져버립니다. 이를 위해 개발한 **MovieSurfing, 최대 3분 시간 ⏱️ 내에 영화들을 빠르게 훑어보고 당신의 취향과 일상에 맞는 영화를 찾아보세요. 🍿**
 
+| Home 🏠 | Search 🔎 |
+| ------------ | ------------- |
+| ![1](https://github.com/Woobios97/MovingSurfing/assets/138302237/d3c9122d-8d14-45a5-97e1-ba25e140c012) | ![2](https://github.com/Woobios97/MovingSurfing/assets/138302237/1eca171c-4aa4-4ebb-8e0b-76e523f7552b)  |
 
-### Home **🏠** | Search 🔎
-![1](https://github.com/Woobios97/MovingSurfing/assets/138302237/d3c9122d-8d14-45a5-97e1-ba25e140c012) | ![2](https://github.com/Woobios97/MovingSurfing/assets/138302237/1eca171c-4aa4-4ebb-8e0b-76e523f7552b)
-
-### Upcoming**🎬** |  Downloads 📥
-![3](https://github.com/Woobios97/MovingSurfing/assets/138302237/5a260301-ab9a-480d-9f73-2d74fe043f2d) | ![4](https://github.com/Woobios97/MovingSurfing/assets/138302237/7468223d-5f7e-43be-9f3b-9a247940db33)
-
+| Upcoming🎬  | Downloads 📥 |
+| ------------ | ------------- |
+| ![3](https://github.com/Woobios97/MovingSurfing/assets/138302237/5a260301-ab9a-480d-9f73-2d74fe043f2d) | ![4](https://github.com/Woobios97/MovingSurfing/assets/138302237/7468223d-5f7e-43be-9f3b-9a247940db33)  |
 
 <br/>
 
