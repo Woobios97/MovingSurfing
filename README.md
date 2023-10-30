@@ -1,4 +1,4 @@
-# MovigSurfing 🎥 🍿_ 영화요약, 영화미리보기, 영화 예고편 iOS 앱 [![swift](https://img.shields.io/badge/swift-5.0-orange)]() [![xcode](https://img.shields.io/badge/Xcode-14.2-blue)]() [![SDWebImage](https://img.shields.io/badge/Kingfisher-5.18.2-red)]() [![CoreData](https://img.shields.io/badge/CoreData-blue)]() [![MVVM](https://img.shields.io/badge/MVVM-purple)]() [![URLSession](https://img.shields.io/badge/URLSession-yellow)]() 
+# MovigSurfing 🎥 🍿_ 영화요약, 영화미리보기, 영화 예고편 iOS 앱 [![swift](https://img.shields.io/badge/swift-5.0-orange)]() [![xcode](https://img.shields.io/badge/Xcode-14.2-blue)]() [![SDWebImage](https://img.shields.io/badge/SDWebImage-5.18.2-SDWebImage)]() [![CoreData](https://img.shields.io/badge/CoreData-blue)]() [![MVVM](https://img.shields.io/badge/MVVM-purple)]() [![URLSession](https://img.shields.io/badge/URLSession-yellow)]() 
 
 
 
