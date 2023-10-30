@@ -25,41 +25,6 @@
 
 <br/>
 
-Foldering 🗄️
--------------
-```bash
-─── MovingSuffing
-│ │ ├── Managers
-│ │ │ ├── APICaller
-│ │ │ ├── DataPersistanceManager
-│ │ ├── Resources
-│ │ │ ├── Fonts
-│ │ │ │ │ ├── 야놀자 야체 Bold.ttf
-│ │ │ │ │ ├── BMDOHYEON_otf.otf
-│ │ │ ├── Extensions
-│ │ │ ├── Appdelegate
-│ │ │ ├── SceneDelegate
-│ │ ├── Models
-│ │ │ ├──YoutubeSearchResponse
-│ │ │ ├──Title
-│ │ ├── ViewModels
-│ │ │ ├──TitlePreviewViewModel
-│ │ │ ├──TitleViewModel
-│ │ ├── Controllers
-│ │ │ ├── General
-│ │ │ │ │ ├── SearchResultViewController
-│ │ │ │ │ ├── TitlePreviewViewController
-│ │ │ ├── Core
-│ │ │ │ │ ├── MainTabBarViewController
-│ │ │ │ │ ├── HomeViewController
-│ │ │ │ │ ├── UpcomingViewController
-│ │ │ │ │ ├── SearchViewController
-│ │ │ │ │ ├── DownloadsViewController
-└────── MovingSuffing
-```
-
-<br/>
-
 프레임워크 & 디자인패턴 & 기술 스택 👨🏻‍💻
 -----------------------------
 
@@ -129,6 +94,42 @@ Foldering 🗄️
         -   YoutubeAPI는 세계에서 가장 큰 동영상 플랫폼으로, 다양한 콘텐츠와 사용자들의 리뷰, 반응 등을 제공한다. 이를 통해 사용자들에게 영화에 대한 전반적인 인상과 반응을 줄 수 있을 것이라 생각했다.
         -   TMDB는 영화 및 Tv 쇼에 대한 풍부한 메타데이터를 제공한다. 이를 통해 영화의 상세정보, 배우, 감독, 평점 등을 사용자에게 제공할 수 있다.
         -   따라서 두 API를 적절히 활용하면 기획에 맞는 메타데이터가 될 수 있겠다고 생각했다.
+
+<br/>
+
+Foldering 🗄️
+-------------
+```bash
+─── MovingSuffing
+│ │ ├── Managers
+│ │ │ ├── APICaller
+│ │ │ ├── DataPersistanceManager
+│ │ ├── Resources
+│ │ │ ├── Fonts
+│ │ │ │ │ ├── 야놀자 야체 Bold.ttf
+│ │ │ │ │ ├── BMDOHYEON_otf.otf
+│ │ │ ├── Extensions
+│ │ │ ├── Appdelegate
+│ │ │ ├── SceneDelegate
+│ │ ├── Models
+│ │ │ ├──YoutubeSearchResponse
+│ │ │ ├──Title
+│ │ ├── ViewModels
+│ │ │ ├──TitlePreviewViewModel
+│ │ │ ├──TitleViewModel
+│ │ ├── Controllers
+│ │ │ ├── General
+│ │ │ │ │ ├── SearchResultViewController
+│ │ │ │ │ ├── TitlePreviewViewController
+│ │ │ ├── Core
+│ │ │ │ │ ├── MainTabBarViewController
+│ │ │ │ │ ├── HomeViewController
+│ │ │ │ │ ├── UpcomingViewController
+│ │ │ │ │ ├── SearchViewController
+│ │ │ │ │ ├── DownloadsViewController
+└────── MovingSuffing
+```
+
   <br/>       
 
 고민/ 문제와 해결 과정, 회고👨🏻‍⚕️
